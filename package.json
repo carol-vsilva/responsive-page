@@ -1,0 +1,30 @@
+{
+  "name": "responsive-page",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carol-vsilva/responsive-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carol-vsilva/responsive-page/issues"
+  },
+  "homepage": "https://github.com/carol-vsilva/responsive-page#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^5.3.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15"
+  }
+}

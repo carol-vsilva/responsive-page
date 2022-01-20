@@ -1,0 +1,33 @@
+{
+  "sannin": [
+  {
+    "id": 1,
+    "name": "Naruto Uzumaki",
+    "image": "/naruto.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sakura Haruno",
+    "image": "/sakura.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sasuke Uchiha",
+    "image": "/sasuke.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Jiraiya",
+    "image": "/jiraiya.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Tsunade",
+    "image": "/tsunade.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Orochimaru",
+    "image": "/orochimaru.jpg"
+  }]
+}
