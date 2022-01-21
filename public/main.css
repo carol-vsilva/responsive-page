@@ -1,0 +1,99 @@
+/* Create four equal columns that floats next to each other */
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sannin-display {
+  float: left;
+  width: 25%;
+  margin:50px
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sannin-display {
+    width: 50%;
+    margin: 25px;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sannin-display{
+    width: 100%;
+    margin: 12px;
+  }
+}
+
+body {
+  background-color: #f2a30b;
+  color: 	#ffe182;
+}
+
+h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 250%;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.sannin-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+
+}
+
+.img-circle {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+}
+
+.footer {
+  font-family: 'Antic Slab', serif;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+a:link {
+  color: #ffe182;
+  cursor: pointer
+}
+
+a:visited {
+  color: #ffe182;
+  cursor: pointer
+}
+
+a:hover {
+  color: #0c2fdf;
+  cursor: pointer
+}

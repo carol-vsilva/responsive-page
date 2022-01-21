@@ -3,31 +3,31 @@
   {
     "id": 1,
     "name": "Naruto Uzumaki",
-    "image": "/naruto.jpg"
+    "image": "/images/naruto.jpg"
   },
   {
     "id": 2,
     "name": "Sakura Haruno",
-    "image": "/sakura.jpg"
+    "image": "/images/sakura.jpg"
   },
   {
     "id": 3,
     "name": "Sasuke Uchiha",
-    "image": "/sasuke.jpg"
+    "image": "/images/sasuke.jpg"
   },
   {
     "id": 4,
     "name": "Jiraiya",
-    "image": "/jiraiya.jpg"
+    "image": "/images/jiraiya.jpg"
   },
   {
     "id": 5,
     "name": "Tsunade",
-    "image": "/tsunade.jpg"
+    "image": "/images/tsunade.jpg"
   },
   {
     "id": 6,
     "name": "Orochimaru",
-    "image": "/orochimaru.jpg"
+    "image": "/images/orochimaru.jpg"
   }]
 }
