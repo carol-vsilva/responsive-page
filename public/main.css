@@ -6,13 +6,19 @@
 }
 
 .sannin-display {
-  float: left;
-  width: 25%;
-  margin:50px
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
 }
 
-/* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen and (max-width: 992px) {
+body {
+  background-color: #f2a30b;
+  color: 	#ffe182;
+}
+
+/* On screens that are 768px wide or less, go from four columns to two columns */
+@media screen and (max-width: 768px) {
   .list {
     display: flex;
     flex-wrap: wrap;
@@ -21,12 +27,17 @@
 
   .sannin-display {
     width: 50%;
-    margin: 25px;
+    margin: 20px;
+  }
+
+  body {
+    background-color: #fbe407;
+    color: #f2a30b;
   }
 }
 
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+/* On screens that are 320px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 320px) {
   .list {
     display: flex;
     flex-wrap: wrap;
@@ -37,11 +48,11 @@
     width: 100%;
     margin: 12px;
   }
-}
 
-body {
-  background-color: #f2a30b;
-  color: 	#ffe182;
+  body {
+    background-color: #f2a30b;
+    color: 	#0c2fdf;
+  }
 }
 
 h1 {
@@ -50,23 +61,9 @@ h1 {
   text-align: center;
 }
 
-.list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .app {
   display: flex;
   flex-direction: column;
-}
-
-.sannin-display {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 25px;
-
 }
 
 .img-circle {
